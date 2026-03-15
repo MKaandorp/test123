@@ -1,0 +1,14 @@
+# Task Board Configuration
+# This file is loaded at runtime and has higher priority than frontend settings.
+
+states:
+  draft:
+    folder: new
+  ewa:
+    folder: new
+    branch: main
+  in_progress:
+    folder: done
+  done:
+    folder: done
+    branch: main
