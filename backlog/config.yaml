@@ -1,14 +1,20 @@
-# Task Board Configuration
-# This file is loaded at runtime and has higher priority than frontend settings.
+version: "0.1.0"
 
 states:
   draft:
+    name: Draft
     folder: new
+
   ewa:
+    name: Ewa
     folder: new
     branch: main
+
   in_progress:
+    name: In Progress
     folder: done
+
   done:
+    name: Done
     folder: done
     branch: main
